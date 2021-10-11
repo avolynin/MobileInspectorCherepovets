@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/silver"
+            android:textStyle="bold"
+            android:text="Настройки профиля"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textAlignment="textStart"
+                android:backgroundTint="@color/flag_blue"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="Общие"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/flag_blue"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:text="Пароль"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="textStart"
+                android:backgroundTint="@color/flag_blue"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="Уведомления"/>
+
+            <Button
+                android:id="@+id/b_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:backgroundTint="@color/flag_blue"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="Выход"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

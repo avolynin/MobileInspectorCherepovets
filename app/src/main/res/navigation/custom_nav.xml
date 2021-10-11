@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_nav"
+    app:startDestination="@id/appealsFragment">
+
+    <fragment
+        android:id="@+id/appealsFragment"
+        android:name="com.mic.MobileInsperctorCherepovets.AppealsFragment"
+        android:label="fragment_appeals"
+        tools:layout="@layout/fragment_appeals" />
+    <fragment
+        android:id="@+id/sendAppealFragment"
+        android:name="com.mic.MobileInsperctorCherepovets.SendAppealFragment"
+        android:label="fragment_send_appeal"
+        tools:layout="@layout/fragment_send_appeal" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.mic.MobileInsperctorCherepovets.settingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>
